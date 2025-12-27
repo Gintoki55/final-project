@@ -1,0 +1,30 @@
+.skeleton-page{
+  min-height: 100vh;
+  box-sizing: border-box;
+  width: 100%;
+}
+.skeleton_cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px;
+    justify-content: center;
+    padding: 20px;
+    align-items: start;
+    grid-auto-rows: min-content;
+    /* background-color: aquamarine; */
+}
+
+.skeleton{
+  background: #e0e0e0 !important;
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  margin: 0 auto;
+  width: 100%;
+  height: 150px !important;
+}
+
+/* لون بنفسجي */
+/* /#22388c */
